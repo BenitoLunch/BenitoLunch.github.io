@@ -261,10 +261,10 @@
           <p>Nos encanta saber de ti</p>
           <form name="Contact" method="POST" data-netlify="true">
             <div class="form-group "> <label for="InputName ">Tu nombre</label>
-              <input type="text " class="form-control " id="InputName " placeholder="Tu nombre "> </div>
+              <input type="text" name="name" class="form-control " id="InputName " placeholder="Tu nombre "> </div>
             <div class="form-group "> <label for="InputEmail1 ">Tu email</label>
-              <input type="email " class="form-control " id="InputEmail1 " placeholder="cual es tu email "> </div>
-            <div class="form-group "> <label for="Textarea ">Escribe aqui</label> <textarea class="form-control " id="Textarea " rows="3 " placeholder="Tu mensaje "></textarea> </div>
+              <input type="email" name="email" class="form-control " id="InputEmail1 " placeholder="cual es tu email "> </div>
+            <div class="form-group "> <label for="Textarea ">Escribe aqui</label> <textarea class="form-control " id="Textarea" name="message" rows="3 " placeholder="Tu mensaje "></textarea> </div>
             <button type="submit " class="btn btn-secondary ">...y envialo!</button>
           </form>
         </div>
@@ -278,7 +278,7 @@
           <p class="lead mb-4 ">te mentenemos informada y ademas te enviamos tips de nutricion para tus hijos</p>
           <form class="form-inline justify-content-center " name="MailingList" method="POST" data-netlify="true">
             <div class="input-group my-1 ">
-              <input type="text " class="form-control mr-3 my-1 " placeholder="Tu e-mail aqui " id="inlineFormInputGroup "> </div>
+              <input type="text" name="email" class="form-control mr-3 my-1 " placeholder="Tu e-mail aqui " id="inlineFormInputGroup "> </div>
             <button type="submit " class="btn btn-secondary ">Apuntame!</button>
           </form>
         </div>
