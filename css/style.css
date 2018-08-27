@@ -1046,13 +1046,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Gallery Section
 --------------------------------*/
-/*
-#gallery {
-  background: #fff;
-  padding: 60px 0 0 0;
-  overflow: hidden;
-}
 
+#gallery {
+  padding: 0 !important;  
+}
+/*
 #gallery .container-fluid {
   padding: 0px;
 }
